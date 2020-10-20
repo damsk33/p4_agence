@@ -18,6 +18,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -284,12 +285,36 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 38px;
 }
 
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.navbar_list {
+    display: flex;
+    list-style: none;
+    margin-top: 1.5em;
+    flex-direction: row-reverse;
+    gap: 5%;
+}
+
+.navbar_list li {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar_line {
+    width: 5em;
+    border: 1px solid;
+}
+
+.navbar_line .navebar_line2 {
+    border-top: 1px solid black;
 }
 
 .navbar-brand {
@@ -360,6 +385,67 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.col-sm-12 h1 {
+    font-weight: bold;
+}
+
+.container_bloc1_img {
+border: 2px solid #F3976C;
+border-radius: 100%;
+}
+
+.container_bloc2_title {
+    text-align: center;
+    padding-right: 9em;
+    padding-left: 9em;
+}
+
+.bloc2_h3 {
+    font-size: 17px;
+}
+
+.bloc2_citation {
+    max-width: 500px;
+    margin: auto;
+}
+
+.bloc3_title {
+    font-size: 18px;
+}
+
+.bloc3_text {
+    font-weight: 600;
+}
+
+.bloc3_contact {
+    text-align: center;
+    color: white!important;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.bloc4_title {
+    margin: auto;
+    max-width: 500px;
+}
+
+.bloc4_title_text {
+    font-size: 18px;
+}
+
+.bloc5_title {
+    position: relative;
+}
+
+.bloc2_line {
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.footer_contact {
+    font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -476,7 +562,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
@@ -676,9 +762,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -695,13 +778,12 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
     font-weight: 700;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 30px auto 30px auto;
 }
 
 h2 {
@@ -720,6 +802,7 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+    margin-top: 60px;
 }
 
 h1 {
@@ -753,7 +836,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 126, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -813,9 +896,6 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");

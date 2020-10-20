@@ -114,12 +114,6 @@ figure {
     margin: 1em 40px
 }
 
-hr {
-    height: 0;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box
-}
 
 pre {
     overflow: auto
@@ -1462,12 +1456,6 @@ img {
     border-radius: 50%
 }
 
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid #eee
-}
 
 .sr-only {
     position: absolute;
@@ -7682,10 +7670,10 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {

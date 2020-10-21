@@ -454,16 +454,16 @@ border-radius: 100%;
 
 .footer_annuaire {
     text-align: center;
-    color: white!important;
+    color: #202720!important;
     font-weight: 900;
 }
 
 .bloc6_h1 {
-    color: white!important;
+    color: #202720!important;
 }
 
 .bloc6_p {
-    color: white!important;
+    color: #202720!important;
     font-weight: 700;
 }
 
@@ -843,7 +843,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #202720!important;
 }
 
 .portfolio-thumb {
@@ -887,7 +887,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #202720!important;
 }
 
 .btn-atomic-tangerine:hover {

@@ -812,6 +812,8 @@ a {
 .social {
     max-width: 400px;
     margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {

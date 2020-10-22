@@ -42,13 +42,9 @@
 								alt="paris web design logo agence web meilleure agence" height="40"></a>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-						<ul class="navbar_list">
-							<a href="page2.html">
-								<li>Contact</li>
-							</a>
-							<a href="index.html">
-								<li>Acceuil</li>
-							</a>
+						<ul class="navbar_list">							
+								<li><a href="page2.html">Contact</a></li>													
+								<li><a href="index.html">Acceuil</a></li>							
 						</ul>
 					</div>
 				</nav>
@@ -82,37 +78,36 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent."
-								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<form id="form_1">
 								<div class="form-group">
-									<label>
-										Nom
-									</label>
-									<input id="name" class="form-control" required />
-								</div>
+								  <label for="name">
+									Nom
+								  </label>
+								  <input id="name" type="text" name="nom" class="form-control" required="">
+								<div class="help-block"></div></div>
 								<div class="form-group">
-									<label>
-										Adresse email
-									</label>
-									<input id="email" class="form-control" type="email" required />
-								</div>
+								  <label for="email">
+									Adresse email
+								  </label>
+								  <input id="email" type="email" name="courriel" class="form-control" required="" aria-invalid="false">
+								<div class="help-block"></div></div>
 								<div class="form-group">
-									<label>
-										Comment nous avez-vous connu ?
-									</label>
-									<input class="form-control" type="email" required id="input_504" />
-								</div>
+								  <label for="know">
+									Comment nous avez-vous connu ?
+								  </label>
+								  <input id="know" type="text" name="connaissance" class="form-control" required="">
+								<div class="help-block"></div></div>
 								<div class="form-group">
-									<label>
-										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50"
-										required></textarea>
-								</div>
-								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-									type="submit">
-									Envoyer
+								  <label for="message">
+									Brief de votre projet (Ajoutez autant de détails que
+									nécessaire)<br>
+								  </label>
+								  <textarea id="message" name="message" class="form-control" rows="4" cols="50" required=""></textarea>
+								<div class="help-block"></div></div>
+								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+								  Envoyer
 								</button>
-							</form>
+							  </form>
 						</div>
 					</div>
 				</div>

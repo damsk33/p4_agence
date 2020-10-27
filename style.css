@@ -476,6 +476,10 @@ border-radius: 100%;
     margin: auto;
 }
 
+.img-responsive {
+    margin: auto;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
